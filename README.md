@@ -13,7 +13,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
 | Web Application Exploitation | [Network Security Lab](./pdfs/CSE_Lab_13.pdf) |
-| Network Hardening & Firewall | [CSE Lab 5 Remediation](./pdfs/CSE_Lab_5.pdf) |
+| Network Hardening & Firewall | [Network Hardening Lab](./pdfs/Network_Hardening.pdf) |
 | Security Automation with Shuffle SOAR         | SOC Automation Lab|
 | Incident Response Planning and Execution      | SOC Automation Lab|
 | Case Management with TheHive                  | SOC Automation Lab|
