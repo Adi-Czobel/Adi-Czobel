@@ -12,7 +12,7 @@ My journey in computer science has led me to develop a passion for cybersecurity
 
 | Skill                                         | Associated Project         |
 |-----------------------------------------------|----------------------------|
-| Web Application Exploitation                  | <a href="file:///C:/Users/adicz/Downloads/CSE%20Lab%2013%20pdf%20(1).pdf"> Network Security Lab</a>|
+| Web Application Exploitation | [Network Security Lab](./CSE%20Lab%2013%20pdf%20(1).pdf) |
 | Network Traffic Monitoring and Attack Detection | <a href="https://google.com">Detection Lab</a>|
 | Security Automation with Shuffle SOAR         | SOC Automation Lab|
 | Incident Response Planning and Execution      | SOC Automation Lab|
