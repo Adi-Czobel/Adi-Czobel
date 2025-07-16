@@ -1,5 +1,6 @@
 # Hello, I'm Adi Czobel
-<a [LinkedIn Profile](https://www.linkedin.com/in/adiczobel)><img src="https://img.shields.io/badge/-LinkedIn-0072b1?&style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adiczobel)
+
 
 
 I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
