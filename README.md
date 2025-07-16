@@ -1,13 +1,11 @@
 # Hello, I'm Adi Czobel
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/adiczobel)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adiczobel)
 
-
-
-I am a recent graduate with a profound interest in technology and a dedication to solving complex problems.
+I am a recent graduate from the University at Buffalo with majoring in Information Technology & Managment with a minor in Cybersecurity. with a profound interest in technology and a dedication to information and cyber security.
 
 ## Objective
 
-My journey in computer science has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to join a Security Operations Center (SOC) as a Tier 1 Analyst.
+My journey in Tech has led me to develop a passion for cybersecurity, and I am now eager to transition into this field, specifically aiming to work in the field of information and Network security.
 
 ## Skills
 
@@ -28,9 +26,6 @@ My journey in computer science has led me to develop a passion for cybersecurity
 </div>
 
 ### Endpoint
-<div></div>
-
-### SIEM
 <div></div>
 
 ## Certifications
