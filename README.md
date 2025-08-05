@@ -4,8 +4,8 @@
 
 - <b>Network Projects</b>
   - [Penetration Test: FTP & Reverse Shell Exploitation](https://github.com/Adi-Czobel/ftp-reverse-shell-penetration)
-- <b>Full Stack Web App (React, NodeJS, Azure, and Machine Learning Components)</b>
-  - [Image Analysis Middleware](https://github.com/joshmadakor1/4chan-Image-Analysis-Middleware-C964) <b><i>(Potentially NSFW)</b></i>
+- <b>Windows Server & Domain Management</b>
+  - [Windows Server AD & GPO Setup (IIS, Users, Transcription, Policies)](https://github.com/Adi-Czobel/-Windows-Server-Domain-Management?tab=readme-ov-file) <b><i></b></i>
 - <b>PowerShell</b>
   - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
   - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
