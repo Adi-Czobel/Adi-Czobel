@@ -6,11 +6,11 @@
   - [Penetration Test: FTP & Reverse Shell Exploitation](https://github.com/Adi-Czobel/ftp-reverse-shell-penetration)
 - <b>Windows Server & Domain Management</b>
   - [Windows Server AD & GPO Setup (IIS, Users, Transcription, Policies)](https://github.com/Adi-Czobel/-Windows-Server-Domain-Management?tab=readme-ov-file) <b><i></b></i>
-- <b>PowerShell</b>
-  - [Windows EventLog: Failed RDP Logins Source IP to full GeoData Conversion](https://github.com/joshmadakor1/Sentinel-Lab)
-  - [JWipe (Disk Wiping Utility)](https://github.com/joshmadakor1/Jwipe.PowerShell)
-  - [Active Directory Bulk User Creation](https://github.com/joshmadakor1/AD_PS)
-  - [FIM (File Integrity Monitor)](https://github.com/joshmadakor1/PowerShell-Integrity-FIM)
+- <b>Home Lab and Virtualization</b>
+  - [Cybersecurity Home Lab Setup](https://github.com/Adi-Czobel/Cybersecurity-Home-Lab-Setup)
+    - VirtualBox VM configuration with internal networking
+    - Kali Linux and Windows VM communication tests
+    - Screenshots, troubleshooting logs, and configuration steps
 - <b>C# (.NET Desktop Applications)</b>
   - [Ransomware Proof of Concept (Encrypter)](https://github.com/joshmadakor1/EncrypterPOC)
   - [Ransomware Proof of Concept (Decrypter)](https://github.com/joshmadakor1/DecrypterPOC)
