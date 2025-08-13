@@ -13,8 +13,13 @@
     - Screenshots, troubleshooting logs, and configuration steps
 - <b>AWS</b>
   - [AWS GuardDuty Real-Time Alerts with EventBridge & SNS](https://github.com/Adi-Czobel/AWS-Real-Time-Alerts-)
-- <b>Python</b>
-  - [Package Delivery Application (Datastructures and Algorithms Demo)](https://github.com/joshmadakor1/Package-Delivery-Pathfinding-Algorithm)
+
+- <b>DevSecOps & Automation</b>  
+  - [Automated CI/CD Pipeline with Security & Compliance Checks](https://github.com/Adi-Czobel/Demo)  
+    - GitHub Actions pipeline with Docker image build & push to GHCR  
+    - Automated security scanning (Trivy, CodeQL) and policy enforcement (Checkov)  
+    - Signed container images and automated GitHub Releases with version tagging  
+
 
 <h2> Connect with me:</h2>
 <a href="https://www.linkedin.com/in/adiczobel" target="_blank">
