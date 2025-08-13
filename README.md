@@ -13,6 +13,11 @@
     - Screenshots, troubleshooting logs, and configuration steps
 - <b>AWS</b>
   - [AWS GuardDuty Real-Time Alerts with EventBridge & SNS](https://github.com/Adi-Czobel/AWS-Real-Time-Alerts-)
+  - [Host a Website on Amazon S3 (PDF)](legendary-aws-host-a-website-on-s3.pdf)  
+    - Created an S3 bucket to store website files and images  
+    - Enabled static website hosting with public access configuration  
+    - Applied bucket policies and ACLs for file protection and accessibility  
+    - Resolved 403 errors by adjusting object permissions
 
 - <b>DevSecOps & Automation</b>  
   - [Automated CI/CD Pipeline with Security & Compliance Checks](https://github.com/Adi-Czobel/Demo)  
