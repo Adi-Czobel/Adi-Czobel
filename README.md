@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 CyberSecurity Projects:</h2>
 - <b>AWS</b>  
-  - [AWS GuardDuty Real-Time Alerts with EventBridge & SNS](https://github.com/Adi-Czobel/AWS-Real-Time-Alerts-)  
+  - [AWS GuardDuty Real-Time Alerts with EventBridge & SNS] (https://github.com/Adi-Czobel/AWS-Real-Time-Alerts-)  
     - Enabled AWS GuardDuty for continuous threat detection across the account  
     - Configured EventBridge rules to capture GuardDuty findings in real time  
     - Integrated SNS to send instant email alerts for high-severity threats  
