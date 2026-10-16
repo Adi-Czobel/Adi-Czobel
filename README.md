@@ -1,6 +1,6 @@
 # Hello, I'm Adi! 👋
 
-Security engineer in Jerusalem — application security and DevSecOps. I build hardened backend
+Security engineer in Jerusalem application security and DevSecOps. I build hardened backend
 services in Rust and Python, and CI pipelines that stop insecure infrastructure before it ships.
 
 CompTIA Security+ · B.S. Information Technology & Management, University at Buffalo (Magna Cum Laude) · English (native) / Hebrew (fluent)
