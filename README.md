@@ -1,27 +1,28 @@
 # Hello, I'm Adi! 👋
 
-Security engineer in Jerusalem — application security and DevSecOps. I build hardened backend
-services in Rust and Python, and CI pipelines that stop insecure infrastructure before it ships.
+I'm a security engineer in Jerusalem working on application security and DevSecOps. I build
+backend services in Rust and Python with the security built in rather than bolted on, and
+CI pipelines that catch insecure infrastructure before it reaches production.
 
 CompTIA Security+ · B.S. Information Technology & Management, University at Buffalo (Magna Cum Laude) · English (native) / Hebrew (fluent)
 
 ## 🛡️ CyberSecurity Projects
 
 ### 🦀 Rust & Application Security
-**[axum-jwt-auth — Hardened JWT Authentication Service](https://github.com/Adi-Czobel/axum-jwt-auth)**
-- Argon2id password hashing at OWASP parameters (19 MiB, t=2, p=1) — the memory cost is what makes offline cracking expensive
-- Refresh-token rotation with reuse detection: replaying a spent token revokes the entire token family, since there is no way to tell attacker from legitimate client
-- JWT validation pinned to a single algorithm, blocking `alg=none` and RS256→HS256 confusion — a hand-forged unsigned token is asserted rejected in the tests
-- Login timing equalised against a dummy hash so response time cannot be used to enumerate accounts
-- 27 tests, `clippy -D warnings` clean, README documents known limitations rather than only strengths
+**[axum-jwt-auth — JWT Authentication Service](https://github.com/Adi-Czobel/axum-jwt-auth)**
+- Passwords hashed with Argon2id at OWASP settings, so stolen hashes are expensive to crack
+- Refresh tokens work once. If a used one shows up again, every token in that chain is cancelled, because the server cannot tell the thief from the real user
+- The JWT algorithm is fixed instead of read from the token, which blocks the `alg=none` and RS256-to-HS256 tricks
+- Wrong password and unknown account return the same answer, and take the same amount of time, so you cannot use either to find out which emails are registered
+- 27 tests, clippy clean, and a section in the README on what it still does not do
 
 ---
 ### 🔐 DevSecOps & Supply Chain
 **[Secure IaC Pipeline](https://github.com/Adi-Czobel/Demo)**
-- Checkov, Hadolint, and Terraform validation gate every pull request; CodeQL, Trivy, and gitleaks report SARIF to the GitHub Security tab
-- Tagged releases build to GHCR with SLSA build provenance and a Syft SBOM attached to the release
-- Container images signed with **cosign keyless via Sigstore** — no long-lived signing key exists to be stolen
-- gitleaks scans full history (`fetch-depth: 0`), because a secret removed in a later commit is still valid until rotated
+- Checkov, Hadolint and Terraform validation run on every pull request and block the merge if they fail
+- CodeQL, Trivy and gitleaks report findings to the repo's Security tab instead of blocking, so false positives do not stop work
+- Tagged releases build a container image, attach a list of everything inside it (SBOM), and sign it with cosign using keyless signing, so there is no private key sitting in a secret waiting to leak
+- gitleaks scans the whole git history, because deleting a password in a later commit does not make it safe
 
 ---
 ### ☁️ AWS
